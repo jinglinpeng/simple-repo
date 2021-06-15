@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623784275334,
+  "lastUpdate": 1623784528034,
   "repoUrl": "https://github.com/jinglinpeng/simple-repo",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -152,6 +152,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005479690258803038",
             "extra": "mean: 3.1032344564000027 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jlpengcs@gmail.com",
+            "name": "jinglinpeng",
+            "username": "jinglinpeng"
+          },
+          "committer": {
+            "email": "jlpengcs@gmail.com",
+            "name": "jinglinpeng",
+            "username": "jinglinpeng"
+          },
+          "distinct": true,
+          "id": "4357ac04a017c30ced8d6e7c652b52d0bec8bd60",
+          "message": "a",
+          "timestamp": "2021-06-15T12:14:16-07:00",
+          "tree_id": "9d5e0ecba6b53ea9e4b976af250653e225e8b60b",
+          "url": "https://github.com/jinglinpeng/simple-repo/commit/4357ac04a017c30ced8d6e7c652b52d0bec8bd60"
+        },
+        "date": 1623784527154,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 0.32224505556375543,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004805954646199166",
+            "extra": "mean: 3.103228374600002 sec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 0.32230277386259026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001208219839909814",
+            "extra": "mean: 3.102672645399997 sec\nrounds: 5"
           }
         ]
       }
