@@ -1,4 +1,4 @@
 import time
 def fib(n):
-    time.sleep(2)
+    time.sleep(1.5)
 
