@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623784528034,
+  "lastUpdate": 1623784752334,
   "repoUrl": "https://github.com/jinglinpeng/simple-repo",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -190,6 +190,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.001208219839909814",
             "extra": "mean: 3.102672645399997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jlpengcs@gmail.com",
+            "name": "Jinglin Peng",
+            "username": "jinglinpeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "967b54dee4ecfa38cfacd190a48d9f524e2e584d",
+          "message": "Merge pull request #1 from jinglinpeng/feat\n\nchange time",
+          "timestamp": "2021-06-15T12:18:09-07:00",
+          "tree_id": "bb1782681c2781c1d0ae41259225d103e950aa4b",
+          "url": "https://github.com/jinglinpeng/simple-repo/commit/967b54dee4ecfa38cfacd190a48d9f524e2e584d"
+        },
+        "date": 1623784751854,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 0.33298711834610933,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004326638567241627",
+            "extra": "mean: 3.003119174599999 sec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 0.33299033705843434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000029815249777425033",
+            "extra": "mean: 3.0030901461999973 sec\nrounds: 5"
           }
         ]
       }
