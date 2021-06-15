@@ -29,6 +29,6 @@ jobs:
           auto-push: ${{github.event_name != 'pull_request'}}
           # Show alert with commit comment on detecting possible performance regression
           alert-threshold: '200%'
-          comment-on-alert: true
+          comment-always: true
           fail-on-alert: true
           alert-comment-cc-users: '@jinglinpeng'
